@@ -1,0 +1,48 @@
+COVID-19 Data Analytics Project
+Overview
+This project analyzes COVID-19 case and vaccination data in India to deliver meaningful insights on the pandemic’s development at the state level. It processes datasets containing confirmed cases, recoveries, deaths, and vaccinations to calculate key metrics such as active cases, recovery rates, and mortality rates. The results are visualized through graphs and summarized in pivot tables to facilitate understanding of regional trends and impacts.
+
+Features
+Data cleaning and preprocessing
+
+Calculation of active cases per state
+
+Correction of state name inconsistencies
+
+Generation of statewise summaries with recovery and mortality rates
+
+Data visualization using Matplotlib, Seaborn, and Plotly
+
+Interactive COVID-19 vaccine data analysis
+
+Data Sources
+COVID-19 India case data (covid_19_india.csv)
+
+COVID-19 India vaccine data (covid_vaccine_statewise.csv)
+
+Getting Started
+Prerequisites
+Python 3.7 or higher
+
+Required libraries: pandas, numpy, matplotlib, seaborn, plotly
+
+Installation
+Install the required Python libraries using pip:
+
+bash
+pip install pandas numpy matplotlib seaborn plotly
+Running the Project
+Clone this repository or download the project files.
+
+Place the CSV data files in the project directory (or update the script with their paths).
+
+Run the Python scripts in an environment that supports visualization (Jupyter notebook recommended or Google Colab).
+
+Explore the output tables and visualizations for insights.
+
+Usage in Google Colab
+Upload your data and scripts to Google Colab.
+
+Adjust file paths to /content/ for uploaded files.
+
+Execute code cells interactively and view the visualization inline.
